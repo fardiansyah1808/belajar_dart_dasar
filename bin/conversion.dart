@@ -17,4 +17,12 @@ void main() {
   print(doubleToInt);
   print(intToString);
   print(doubleToString);
+
+  inputString = 'true';
+  var inputBool = inputString == 'true';
+
+  var booleanToString = inputBool.toString();
+
+  print(inputBool);
+  print(booleanToString);
 }
